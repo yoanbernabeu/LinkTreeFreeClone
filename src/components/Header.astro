@@ -1,0 +1,31 @@
+---
+export interface Props {
+	subtitle: string;
+	title: string;
+	tagline: string;
+}
+
+const { subtitle, title, tagline } = Astro.props;
+---
+
+<div>
+    <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div class="text-center">
+
+            <img class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56" src="avatar.jpg" alt="">
+            
+            <p class="mt-5 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+                {title}
+            </p>
+
+            <h2 class="text-lg font-semibold text-indigo-600 mt-5">
+                {subtitle}
+            </h2>
+
+            <p class="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+                {tagline}
+            </p>
+
+        </div>
+    </div>
+</div>

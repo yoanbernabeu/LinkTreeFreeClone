@@ -1,0 +1,17 @@
+---
+export interface Props {
+	title: string;
+	tagline: string;
+}
+
+const { title, tagline } = Astro.props;
+---
+<footer>
+    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8">
+        <div class="mt-8 md:order-1 md:mt-0">
+            <p class="text-center text-base text-gray-400">
+                &copy; 2021 {title}. {tagline}
+            </p>
+        </div>
+    </div>
+</footer>

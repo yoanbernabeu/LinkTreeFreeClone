@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Link from "../components/Link.astro";
+import Footer from "../components/Footer.astro";
+
+import { SUBTITLE, TITLE, TAGLINE } from "../config";
+
+// fetch all Markdown files in the links directory
+const links = await Astro.glob("./links/*.md");
+---
+
+<Layout title={TITLE + " - " + SUBTITLE}>
+	
+    <main>
+        <Header subtitle={SUBTITLE} title={TITLE} tagline={TAGLINE} />
+    </main>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl">
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    {
+                        links.map((link) => (
+                            <Link
+                                emoji={link.frontmatter.emoji}
+                                title={link.frontmatter.title}
+                                href={link.frontmatter.href}
+                            />
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<Footer
+		title={TITLE}
+		tagline={TAGLINE}
+	/>
+
+</Layout>
