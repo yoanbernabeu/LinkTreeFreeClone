@@ -6,6 +6,10 @@ It is built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwin
 
 Feel free to use it as a template for your own projects.
 
+## 👀 Demo
+
+You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.co/)
+
 ## 🚀 Quick start
 
 1. **Customize your general settings**
