@@ -34,7 +34,7 @@ Feel free to use it as a template for your own projects.
 
 3. **Customize your avatar**
 
-    Replace the file `src/public/avatar.jpg` with your own avatar.
+    Replace the file `src/public/avatar.png` with your own avatar.
 
 ## 🧞 Commands
 

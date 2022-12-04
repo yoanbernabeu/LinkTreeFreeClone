@@ -1,3 +1,3 @@
-export const SUBTITLE = "Développeur Web | Formateur indépendant | Youtubeur"
-export const TITLE = "Yoan Bernabeu"
-export const TAGLINE = "Créateur de contenu, de formations et de solutions pour le web."
+export const SUBTITLE = "This is my subtitle"
+export const TITLE = "Lastname Firstname"
+export const TAGLINE = "This is my tagline"
