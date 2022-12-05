@@ -1,5 +1,7 @@
 # LinkTree Free Clone
 
+![screenshoot](readme.png)
+
 LinkTree Free Clone is a free clone of LinkTree, a popular link aggregator for social media. 
 
 It is built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
