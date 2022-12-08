@@ -12,9 +12,7 @@ const links = await Astro.glob("./links/*.md");
 
 <Layout title={TITLE + " - " + SUBTITLE}>
 	
-    <main>
-        <Header subtitle={SUBTITLE} title={TITLE} tagline={TAGLINE} />
-    </main>
+    <Header subtitle={SUBTITLE} title={TITLE} tagline={TAGLINE} />
 
     <section>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

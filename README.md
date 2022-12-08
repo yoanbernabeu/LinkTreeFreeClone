@@ -42,6 +42,49 @@ You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.
 
     Replace the file `src/public/avatar.png` with your own avatar.
 
+4. **Customize your social media links**
+
+    Create a new file in `src/pages/social/` for each social media link you want to add.
+    The file name will be not used, but it is recommended to use a descriptive name.
+    The file should contain a frontmatter section with the following variables:
+        * `icon`: The icon to use for the link
+        * `url`: The URL of the link
+
+    Example:
+    ```md
+    ---
+    icon: linkedin
+    url: https://linkedin.com/in/yoan-bernabeu
+    
+    ---
+    ```
+
+## 🔠 List of available icons for social media
+
+For the `icon` variable in the frontmatter section of the social media links, you can use the following values:
+
+* `behance`
+* `discord`
+* `github`
+* `facebook`
+* `instagram`
+* `google`
+* `linkedin`
+* `pinterest`
+* `vkontakte`
+* `stackoverflow`
+* `telegram`
+* `youtube`
+* `tiktok`
+* `snapchat`
+* `slack`
+* `messenger`
+* `dribbble`
+* `reddit`
+* `twitter`
+* `whatsapp`
+* `twitch`
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
