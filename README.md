@@ -10,7 +10,7 @@ Feel free to use it as a template for your own projects.
 
 ## 👀 Demo
 
-You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.co/)
+You can see a demo of the project at [https://linktreefreeclone.yoandev.co/](https://linktreefreeclone.yoandev.co/)
 
 ## 🚀 Quick start
 
@@ -23,11 +23,15 @@ You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.
     Create a new file in `src/pages/links/` for each link you want to add.
     The file name will be not used, but it is recommended to use a descriptive name.
     The file should contain a frontmatter section with the following variables:
-        * `title`: The title of the link
-        * `emoji`: The emoji to use for the link
-        * `href`: The URL of the link
+    
+    * `title`: The title of the link
+    
+    * `emoji`: The emoji to use for the link
+    
+    * `href`: The URL of the link
 
     Example:
+    
     ```md
     ---
 
@@ -41,6 +45,52 @@ You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.
 3. **Customize your avatar**
 
     Replace the file `src/public/avatar.png` with your own avatar.
+
+4. **Customize your social media links**
+
+    Create a new file in `src/pages/social/` for each social media link you want to add.
+    The file name will be not used, but it is recommended to use a descriptive name.
+    The file should contain a frontmatter section with the following variables:
+
+    * `icon`: The icon to use for the link
+    
+    * `url`: The URL of the link
+
+    Example:
+
+    ```md
+    ---
+    icon: linkedin
+    url: https://linkedin.com/in/yoan-bernabeu
+
+    ---
+    ```
+
+## 🔠 List of available icons for social media
+
+For the `icon` variable in the frontmatter section of the social media links, you can use the following values:
+
+* `behance`
+* `discord`
+* `github`
+* `facebook`
+* `instagram`
+* `google`
+* `linkedin`
+* `pinterest`
+* `vkontakte`
+* `stackoverflow`
+* `telegram`
+* `youtube`
+* `tiktok`
+* `snapchat`
+* `slack`
+* `messenger`
+* `dribbble`
+* `reddit`
+* `twitter`
+* `whatsapp`
+* `twitch`
 
 ## 🧞 Commands
 
