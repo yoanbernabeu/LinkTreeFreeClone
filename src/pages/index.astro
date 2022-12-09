@@ -3,8 +3,16 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Link from "../components/Link.astro";
 import Footer from "../components/Footer.astro";
+import Contact from "../components/Contact.astro";
 
-import { SUBTITLE, TITLE, TAGLINE } from "../config";
+import { 
+    SUBTITLE, 
+    TITLE, 
+    TAGLINE,
+    contact,
+    phone,
+    email
+} from "../config";
 
 // fetch all Markdown files in the links directory
 const links = await Astro.glob("./links/*.md");
@@ -31,6 +39,12 @@ const links = await Astro.glob("./links/*.md");
             </div>
         </div>
     </section>
+
+    <Contact
+        contact={contact}
+        phone={phone}
+        email={email}
+    />
 
 	<Footer
 		title={TITLE}

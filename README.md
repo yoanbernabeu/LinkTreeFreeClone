@@ -18,7 +18,7 @@ You can see a demo of the project at [https://linktreefreeclone.yoandev.co/](htt
 
 1. **Customize your general settings**
 
-   Open `src/config.ts` and edit the `SUBTITLE', 'TITLE' and 'TAGLINE' variables.
+   Open `src/config.ts` and edit the `SUBTITLE`, `TITLE`, `TAGLINE`, `contact`, `phone` and `email` variables.
 
 2. **Customize your links**
 

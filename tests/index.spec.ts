@@ -17,4 +17,9 @@ test('homepage has title and links', async ({ page }) => {
   const blog = page.getByRole('link', { name: '📝 Blog' });
   await expect(blog).toHaveAttribute('href', 'https://yoandev.co');
 
+  const phone = page.getByRole('link', { name: '☎️ Call me' });
+  await expect(phone).toHaveAttribute('href', 'tel://+33600000000');
+
+  const email = page.getByRole('link', { name: '📪 Email me' });
+  await expect(email).toHaveAttribute('href', 'mailto://contact@yoandev.co');
 });
