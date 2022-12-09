@@ -10,7 +10,7 @@ Feel free to use it as a template for your own projects.
 
 ## 👀 Demo
 
-You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.co/)
+You can see a demo of the project at [https://linktreefreeclone.yoandev.co/](https://linktreefreeclone.yoandev.co/)
 
 ## 🚀 Quick start
 
@@ -28,6 +28,7 @@ You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.
         * `href`: The URL of the link
 
     Example:
+    
     ```md
     ---
 
@@ -51,11 +52,12 @@ You can see a demo of the project at [https://go.yoandev.co](https://go.yoandev.
         * `url`: The URL of the link
 
     Example:
+
     ```md
     ---
     icon: linkedin
     url: https://linkedin.com/in/yoan-bernabeu
-    
+
     ---
     ```
 

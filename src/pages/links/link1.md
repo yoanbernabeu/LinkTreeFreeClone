@@ -1,5 +1,5 @@
 ---
-title: Link 1
-emoji: 📺
-href: https://lorem.com
+title: Twitter
+emoji: 🐦
+href: https://twitter.com/yOyO38
 ---
